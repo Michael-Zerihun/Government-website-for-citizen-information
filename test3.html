@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function blank() {
+            var see = 'no can do'
+            if (document.getElementById("power").value == document.getElementById("power").placeholder) {
+                alert(see)
+            }
+            
+        }
+    </script>
+    <form action="@" method="post" onsubmit="blank()">
+        <label for="power">power</label>
+        <input type="text" name="power" id="power" placeholder="in watts" >
+        <input type="submit" value="submit" >
+    </form>
+    
+    
+    
+    
+    
+</body>
+</html>

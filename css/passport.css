@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(35, 119, 73, 0.788);
+}
+.passport {
+    width: 55%;
+    background-image: url(../image/test/transparent/abstract-geometric-lines-pattern-mohamad-anas-transparent.png), url(../image/test/transparent/pngwing.com\ \(3\).png), linear-gradient(rgba(250, 250, 1, 0.719), rgb(255,140,67,0.5), rgba(1, 255, 1, 0.5)), linear-gradient(rgb(214, 207, 207), rgb(221, 217, 217)) ;
+    background-size:  110%, 70%, 100%, 100%, 100%;
+    background-position: center;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+.passportdiv {
+    width: 100%;
+    height: 89.7%;
+    margin: auto;
+    padding-top: 5%;
+    background-color: #a3ccf8e5;
+    /* text-align: center; */
+    /* padding-left: 25%; */
+    /* display: flex; */
+    
+}
+.passportcont {
+    width: 100%;
+    height: 750%;
+    border-spacing: 0px;
+    /* background-image: url(../image/test/transparent/pngwing.com\ \(3\).png), url(../image/test/transparent/abstract-geometric-lines-pattern-mohamad-anas-transparent.png), linear-gradient(rgba(128, 128, 128, 0.685), rgba(134, 104, 104, 0.712)), linear-gradient(rgba(228, 35, 245, 0.363), rgba(241, 241, 15, 0.63) ), linear-gradient(rgba(74, 235, 241, 0.568), rgba(209, 66, 99, 0.486), rgba(85, 168, 223, 0.473), rgba(155, 230, 102, 0.473)), url(../image/test/transparent/pngkey.com-pattern-png-80192.png), linear-gradient(rgba(243, 26, 26, 0.678), rgb(240, 240, 54)), url(../image/test/5570863.jpg); */
+    
+    /* margin: auto;url(../image/test/transparent/pngwing.com\ \(3\).png),  */
+    border-collapse: collapse;
+    
+}
+.passportcont td{
+    width: 12.5%;
+    height: inherit;
+    font-size: medium;
+    /* border: 1px solid black; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0px;
+    /* margin-top: -30px; */
+}
+.passportcont th {
+    width: 12.5%;
+    height: inherit;
+    font-size: large;
+    text-align: center;
+
+}
+#indextitle {
+    color: rgb(23, 23, 126);
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: -5px;
+    margin-bottom: -3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pasphoto {
+    width: 100%;
+    height: 168;
+}
+#barpd {
+    width: auto;
+    height: 70px;
+    padding-top: 0%;
+    background-color: #ffffff00;
+}
+#barcode {
+    width: 70%;
+    height: 80px;
+    margin-left: 25%;
+    margin-bottom: -5px;
+    /* object-fit: fill;
+    object-position: -2px -8px; */
+    
+}
+#code {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pdfpass {
+    width: 60px;
+    height: 60px;
+    /* background-color: chocolate; */
+    margin-left: 80%;
+    /* margin-top: 3%; */
+    text-align: center;
+}
+.pdfpass:hover {
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgb(104, 235, 133), 0 0 1em rgb(167, 240, 50);
+}

@@ -1,0 +1,35 @@
+.forgot {
+    width: 700px;
+    max-width: 80%;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 5%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px grey;
+    /* justify-content: space-between;
+    align-content: right; */
+}
+#input-email, #new-password, #re-password, #otp {
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+}
+#get-otp, #done, #verify {
+    font-size: large;
+    margin-left: 208px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: dodgerblue;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    padding-bottom: 15px;
+}
